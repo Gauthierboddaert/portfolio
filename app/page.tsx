@@ -7,8 +7,8 @@ export default function Home() {
       <DefaultSection
         displayStack={true}
         title="Gauthier Boddaert"
-        subTitle=<div className="flex justify-center md:text-xl lg:text-3xl">
-          <p className="text-nauticalCyan">Full-stack &nbsp;</p>
+        subTitle=<div className=" text-lg flex justify-center md:text-xl lg:text-3xl">
+          <p className="text-nauticalGrey md:text-nauticalCyan">Full-stack &nbsp;</p>
           <p className="text-nauticalGrey">developer</p>
         </div>
       />
