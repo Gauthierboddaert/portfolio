@@ -1,17 +1,17 @@
-"use client";
-
 import { ReactNode } from "react";
 import PuddleGradient from "../Svg/PuddleGradient";
 import Title from "../Title/Title";
+import StackLogo from "../HomePage/Components/StackLogo";
 
 interface Props {
   title: string;
   subTitle?: ReactNode;
+  displayStack?: boolean
 }
 
-const DefaultSection = ({ title, subTitle }: Props) => {
+const DefaultSection = ({ title, subTitle, displayStack = false }: Props) => {
   return (
-    <div className="flex w-full h-screen overflow-hidden relative">
+    <div className=" h-[60vh] flex w-full overflow-hidden relative sm-1:h-[65vh] md:h-[88vh] lg:h-screen">
       <div className="w-2/12"></div>
       <div className="w-10/12">
         <div className="absolute top-28 z-30 lg:left-[300px] lg:top-48">
@@ -20,9 +20,11 @@ const DefaultSection = ({ title, subTitle }: Props) => {
             title={title}
           />
           {subTitle}
+          {displayStack ? <StackLogo/> : null}
         </div>
         <PuddleGradient />
       </div>
+      
     </div>
   );
 };
