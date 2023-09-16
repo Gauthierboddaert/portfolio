@@ -1,11 +1,16 @@
-import DefaultSection from '@/features/DefaultSection/DefaultSection'
-import Image from 'next/image'
+import DefaultSection from "@/features/DefaultSection/DefaultSection";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
-        
-        <DefaultSection />
+    <main className="">
+      <DefaultSection
+        title="Gauthier Boddaert"
+        subTitle=<div className="flex justify-center md:text-xl lg:text-3xl">
+          <p className="text-nauticalCyan">Full-stack &nbsp;</p>
+          <p className="text-nauticalGrey">developer</p>
+        </div>
+      />
     </main>
-  )
+  );
 }

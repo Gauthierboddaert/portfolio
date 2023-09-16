@@ -1,16 +1,9 @@
-interface Props {
-  width?: string;
-  height?: string;
-}
-
-const PuddleGradient = ({ width = "1200", height = "auto" }: Props) => {
+const PuddleGradient = () => {
   return (
-    <div className=" absolute right-0 top-0 mr-[800px]  z-0">
+    <div className="">
       <svg
-        className="absolute"
-        width={width}
-        height={height}
-        viewBox={"0 0 454 295"}
+        className="w-[100%] h-auto ml-20 absolute top-[-10px] sm:ml-24 md:ml-32 lg:w-[90%] lg:ml-[290px] lg:top-[-100px]"
+        viewBox={"0 0 440 10000 "}
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

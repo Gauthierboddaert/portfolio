@@ -13,6 +13,10 @@ const config: Config = {
         "montserrat"
       ],
     },
+    colors: {
+      'nauticalGrey': '#2B3F4A',
+      'nauticalCyan': '#1BBE9B'
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
