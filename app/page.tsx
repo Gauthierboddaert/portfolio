@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <DefaultSection
         title="Gauthier Boddaert"
         subTitle=<div className="flex justify-center md:text-xl lg:text-3xl">

@@ -2,7 +2,7 @@ import DefaultSection from "@/features/DefaultSection/DefaultSection";
 
 const About = () => {
     return (<>
-        <DefaultSection title="About myself" />
+        <DefaultSection title="How to reach me ?" />
     </>)
 }
 

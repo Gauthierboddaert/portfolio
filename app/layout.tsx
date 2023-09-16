@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className=" z-auto">
       <body className={montserrat.className}>
-        {/* <Header /> */}
+        <Header />
         {children}
       </body>
     </html>

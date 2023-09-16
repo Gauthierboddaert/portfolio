@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
-    <div className="flex w-full gap-3 justify-end container py-5 text-white text-lg">
-      <p className="z-10">Portolio</p>
-      <p className="z-10">About</p>
-      <p className="z-10">Contact</p>
+    <div className="container flex w-full gap-3 justify-end py-5 text-lg fixed z-50 font-semibold">
+      <Link style={{color:'white'}} href={'/portfolio'}>Portfolio </Link>
+      <Link style={{color:'white'}} href={'/about'}>About </Link>
+      <Link style={{color:'white'}} href={'/contact'}>Contact </Link>
     </div>
   );
 };
