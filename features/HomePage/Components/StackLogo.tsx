@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const StackLogo = () => {
   return (
-    <div className="flex flex-col items-center absolute top-28 sm-1:top-40 sm:top-52 md:top-80">
+    <div className="flex flex-col items-center absolute top-32 left-12 sm-1:top-52 sm:top-64 md:top-80">
       <div className="w-fit flex gap-6 justify-center">
         <Image
           className=" w-16 h-20 lg:h-[110px] lg=w-[90px] lg:w-24"
