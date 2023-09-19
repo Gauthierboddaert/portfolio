@@ -41,9 +41,9 @@ const PuddleGradient = () => {
             width="454"
             height="294.195"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -77,9 +77,9 @@ const PuddleGradient = () => {
             y2="246.445"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1BBE9B" />
-            <stop offset="0.5491" stop-color="#3AB79C" />
-            <stop offset="1" stop-color="#46F4CF" />
+            <stop stopColor="#1BBE9B" />
+            <stop offset="0.5491" stopColor="#3AB79C" />
+            <stop offset="1" stopColor="#46F4CF" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_5_19"
@@ -89,9 +89,9 @@ const PuddleGradient = () => {
             y2="231.998"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1BBE9B" />
-            <stop offset="0.5491" stop-color="#3AB79C" />
-            <stop offset="1" stop-color="#46F4CF" />
+            <stop stopColor="#1BBE9B" />
+            <stop offset="0.5491" stopColor="#3AB79C" />
+            <stop offset="1" stopColor="#46F4CF" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_5_19"
@@ -101,9 +101,9 @@ const PuddleGradient = () => {
             y2="217.436"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1BBE9B" />
-            <stop offset="0.5491" stop-color="#3AB79C" />
-            <stop offset="1" stop-color="#46F4CF" />
+            <stop stopColor="#1BBE9B" />
+            <stop offset="0.5491" stopColor="#3AB79C" />
+            <stop offset="1" stopColor="#46F4CF" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_5_19"
@@ -113,9 +113,9 @@ const PuddleGradient = () => {
             y2="202.838"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1BBE9B" />
-            <stop offset="0.5491" stop-color="#3AB79C" />
-            <stop offset="1" stop-color="#46F4CF" />
+            <stop stopColor="#1BBE9B" />
+            <stop offset="0.5491" stopColor="#3AB79C" />
+            <stop offset="1" stopColor="#46F4CF" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_5_19"
@@ -125,9 +125,9 @@ const PuddleGradient = () => {
             y2="188.143"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1BBE9B" />
-            <stop offset="0.5491" stop-color="#3AB79C" />
-            <stop offset="1" stop-color="#46F4CF" />
+            <stop stopColor="#1BBE9B" />
+            <stop offset="0.5491" stopColor="#3AB79C" />
+            <stop offset="1" stopColor="#46F4CF" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_5_19"
@@ -137,10 +137,10 @@ const PuddleGradient = () => {
             y2="173.348"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#1BBE9B" />
-            <stop offset="0.549" stop-color="#3AB79C" />
-            <stop offset="0.5491" stop-color="#3AB79C" />
-            <stop offset="1" stop-color="#46F4CF" />
+            <stop stopColor="#1BBE9B" />
+            <stop offset="0.549" stopColor="#3AB79C" />
+            <stop offset="0.5491" stopColor="#3AB79C" />
+            <stop offset="1" stopColor="#46F4CF" />
           </linearGradient>
         </defs>
       </svg>

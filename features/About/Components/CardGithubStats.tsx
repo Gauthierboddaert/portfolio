@@ -4,8 +4,11 @@ interface Props {
 }
 
 const CardGithubStats = ({ data, title }: Props) => {
-  return <div className="w-[300px] h-[250px] border-[3px] rounded-lg border-nauticalGrey shadow-sm flex flex-col items-center justify-center gap-3">
-    <h1>{title}</h1>
+
+  console.log()
+
+  return <div className="w-[280px] h-[250px] border-[3px] rounded-tl-lg rounded-br-lg border-nauticalGrey shadow-sm flex flex-col items-center justify-center gap-3">
+    <h1 className=" font-bold">{title}</h1>
     <p>{data}</p>
   </div>;
 };
